@@ -1,0 +1,498 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap");
+
+:root {
+  --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.5);
+}
+
+* {
+  transition: all 0.4s ease;
+}
+
+body {
+  font-family: "Zen Antique", serif;
+  color: white;
+  background-color: #724b4b ;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h2,
+h3 {
+  position: relative;
+  z-index: 1;
+  font-size: 3rem;
+  font-weight: 540;
+}
+
+p {
+  font-weight: 500;
+  font-size: 0.5rem;
+  line-height: 3rem;
+  letter-spacing: 1rem;
+}
+
+
+
+li{
+  list-style: none;
+}
+
+a,
+span {
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+header {
+  position: fixed;
+  right: 0px;
+  z-index: 1000;
+  padding: 2rem 2rem;
+  text-shadow: black 1px 3px 6px;
+}
+
+.logo-title {
+  cursor: pointer;
+}
+
+header img {
+  width: 3.5rem;
+}
+
+.menu img{
+  width: 60px;
+  height: 60px;
+  color: #fff;
+}
+
+.menu-bar{
+  width: 400px;
+  justify-content: space-between;
+  align-items : center;
+  right: 0px;
+}
+
+
+.menu-bar a{
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+/* hero section */
+.hero {
+  background-image: url("./imgs/back-miso2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero::after {
+  position: absolute;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.hero .title {
+  transform: translateY(110px);
+  position: relative;
+  z-index: 3;
+}
+
+.hero h1 {
+  text-shadow: black 1px 3px 6px;
+  font-size: 12.5rem;
+}
+
+.hero h3 {
+  width: 450px;
+  text-align: right;
+  text-shadow: black 1px 3px 6px;
+}
+
+
+
+
+
+
+/* sale section */
+.sale h2 {
+  font-size: 4rem;
+}
+
+.sale h3 {
+  font-size: 3rem;
+}
+
+.sale img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-effect {
+  box-shadow: var(--box-shadow);
+}
+
+.game-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 1.2rem 1.2rem 1.2rem 1.2rem;
+}
+
+.game-card h4 {
+  font-size: 2.6rem;
+}
+
+.explain-sentence{
+  padding-bottom: 15px;
+}
+
+.game-card p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.01rem;
+}
+
+.game-card:hover {
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+.game-card img{
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px;
+}
+
+.subheading p{
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.01rem;
+}
+
+
+
+/* company section */
+.company {
+  background-image: url("./imgs/back-fire.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.company::after {
+  position: absolute;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.company h2 {
+  position: relative;
+  z-index: 1;
+  font-size: 3.9rem;
+}
+
+
+
+
+.company-info{
+  margin: 1rem 0.3rem 1rem 0.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+.company p {
+  position: relative;
+  z-index: 1;
+  font-size: 2.5rem;
+  line-height: 3.9rem;
+}
+
+.conmpany-text-last {
+  position: absolute;
+  top: 70%;
+  left: 7%;
+}
+
+.company-info .more a {
+  display: inline-block;
+  color: white;
+  font-size: 1.7rem;
+  padding: 0.6rem;
+}
+
+.company-info .more a:hover {
+  color: rgb(71, 173, 187);
+  transform: translateX(1rem);
+}
+
+table{
+  margin: 1.2rem 0.2rem 1.2rem 0.2rem;
+}
+
+tr{
+  display: flex;
+}
+
+h5{
+  position: relative;
+  z-index: 1;
+  font-size: 1.8rem;
+  font-weight: 540;
+  text-align: left;
+}
+
+td{
+  position: relative;
+  z-index: 1;
+  font-size: 1.6rem;
+  font-weight: 540;
+  text-align: left;
+}
+
+.lefttd{
+  width: 75px;
+}
+
+.righttd{
+  width: 210px;
+}
+
+.business-hours{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+
+/* hardware section */
+.hardware {
+  width: 50%;
+  height: 25%;
+}
+
+.hardware-card img {
+  width: 100%;
+  height: 100%;
+}
+
+.hardware-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hardware-card h3 {
+  position: absolute;
+  color: white;
+  font-size: 4rem;
+  opacity: 0;
+}
+
+.hardware-card:hover img {
+  transform: scale(1.1);
+}
+
+.hardware-card .overlay {
+  position: absolute;
+  background: #000;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hardware-card:hover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  background: rgb(13, 71, 92);
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+
+.hardware-card:hover h3 {
+  position: absolute;
+  display: block;
+  opacity: 1;
+}
+
+/* contact section */
+.contact {
+  background-image: url("./imgs/back-shop.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.contact input {
+  height: 4rem;
+  margin-bottom: 2rem;
+}
+
+.contact textarea {
+  width: 70%;
+}
+
+.contact .vision-sight-logo h3 {
+  position: absolute;
+  bottom: 10%;
+  right: 8%;
+  font-size: 4rem;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+  .hero h1 {
+    font-size: 9rem;
+  }
+
+  .hero h3 {
+    width: 400px;
+    font-size: 3rem;
+  }
+
+ 
+  
+}
+
+@media (max-width: 768px) {
+  .hero .title {
+    transform: translateY(-50px);
+    text-align: center;
+  }
+
+ 
+
+  .hero h1 {
+    font-size: 6rem;
+  }
+
+  .hero h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hardware-card h3 {
+    font-size: 3rem;
+  }
+
+  td, h5{
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  header{
+    justify-content: center;
+  }
+
+
+  .menu-bar{
+    width: 320px;
+    padding: 0;
+  }
+
+  .title h1{
+    font-size: 7rem;
+  }
+  
+
+
+  .hero h3 {
+    font-size: 2rem;
+  }
+
+  /* company section */
+  .company-info {
+    text-align: center !important;
+    padding: 2rem !important;
+  }
+  
+
+  .company-info-wrapper{
+    flex-direction: column;
+  }               
+
+
+  .company{
+    background-image: url("./imgs/back-fire2.jpg");
+    background-size: cover;
+    height: 160vh !important;
+  }
+
+
+  .conmpany-text-last {
+    position: static;
+    margin-top: 30rem;
+  }
+
+  .company-info h2 {
+    margin-bottom: 4.6rem !important;
+  }
+
+  .company-info p {
+    line-height: 5rem;
+    font-size: 2.2rem;
+  }
+
+  .company-info .more {
+    margin-top: 9rem;
+  }
+
+  .contact h2 {
+    font-size: 4.6rem;
+    text-align: center;
+  }
+
+  /* hardware */
+  .hardware {
+    width: 70%;
+    height: 25%;
+  }
+
+  
+}

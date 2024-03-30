@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ラーメン炎公式ホームページ</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <ul class="d-flex menu-bar">
+        <li><a href="#home">ホーム</a></li>
+        <li><a href="#menu">お品書き</a></li>
+        <li><a href="#storeinfo">店舗情報</a></li>
+        <li><a href="#obento">お弁当</a></li>
+        <a href="https://www.instagram.com/homura_kesennuma/" target=”_blank”><img src="./imgs/instagram.svg" alt="no img" class="hambarger"></a>
+      </ul>
+    </header>
+
+    <!-- hero section -->
+    <section class="hero d-flex align-items-center vh-100" id="home">
+      
+      <div class="container">
+        <div class="row">
+          <div class="title col-md-8">
+            <h1>ラーメン炎</h1>
+            <h3>~in kesennuma~</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sale section -->
+    <section class="sale bg-light" id="menu">
+      <div class="container text-dark">
+        <div class="row">
+          <div class="col-sm-7 mx-auto text-center subheading">
+            <h2>お品書き</h2> 
+            <p>ラーメンがメインですが、チャーハンや餃子などもあります。<br/>ラーメンの大盛りはなんと麺2倍！！<br/>以下は当店の人気メニューです。全メニューは<a href="./homura-menu.pdf" download="homura-menu.pdf">こちら</a></p>
+          </div>
+        </div>
+
+        <div class="row g-4 mt-3">
+            <div class="col-sm-4">
+              <div class="game-card card-effect text-center">
+                <img src="./imgs/menu-miso.jpg" alt="" class="card-img-top"/>
+                <div class="my-4 explain-sentence">
+                  <h4>味噌ラーメン</h4>
+                  <p>当店1番人気の一品。絶妙な辛さがお客様にも人気！辛みは抜くこともできます。</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="game-card card-effect text-center">
+                <img src="./imgs/menu-tanmen.jpg" alt="" />
+                <div class="my-4 explain-sentence">
+                  <h4>タンメン</h4>
+                  <p>野菜たっぷりで栄養満点の一品。細めの麺に絡まる塩味のスープをご堪能ください。</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="game-card card-effect text-center">
+                <img src="./imgs/menu-gyokai.jpg" alt="" />
+                <div class="my-4 explain-sentence">
+                  <h4>牡蠣ラーメン</h4>
+                  <p>夏限定！気仙沼の漁港でとれた新鮮な牡蠣を使用した一品となっております。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- company section -->
+    <section class="company vh-100" id="storeinfo">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-7 mx-auto text-center subheading">
+            <h2 class="mb-4">店舗情報</h2>
+          </div>
+
+
+          <div class="d-flex justify-content-around company-info-wrapper">
+            <div class="company-info">
+              <table>
+                  <tr>
+                      <td class="lefttd">店名</td>
+                      <td class="righttd">ラーメン炎</td>
+                  </tr>
+                  <tr>
+                      <td class="lefttd">所在地</td>
+                      <td class="righttd">気仙沼市赤岩石兜158-2</td>
+                  </tr>
+                  <tr>
+                      <td class="lefttd">電話番号</td>
+                      <td class="righttd">0226-22-1266</td>
+                  </tr>
+                  <tr>
+                      <td class="lefttd">駐車場</td>
+                      <td class="righttd">10台</td>
+                  </tr>
+                  <tr>
+                      <td class="lefttd">席数</td>
+                      <td class="righttd">20席</td>
+                  </tr>
+                  <tr>
+                      <td class="lefttd">予算</td>
+                      <td class="righttd">600～2000円</td>
+                  </tr>
+                  <tr>
+                      <td class="lefttd">店舗設備</td>
+                      <td class="righttd">カウンター/小上がり</td>
+                  </tr>
+              </table>
+            </div>
+
+
+
+            <div class="company-info">
+              <div class="business-hours">
+                <h5>営業時間</h5>
+                <table>
+                  <tr>
+                      <td class="lefttd">【月】</td>
+                      <td class="righttd">11:00〜15:00/17:00〜21:00</td>
+                  </tr>
+                  <tr>
+                      <td class="lefttd">【火】</td>
+                      <td class="righttd">11:00〜15:00/17:00〜21:00</td>
+                  </tr>
+                  <tr>
+                      <td class="lefttd">【水】</td>
+                      <td class="righttd">11:00〜15:00/17:00〜21:00</td>
+                  </tr>
+                  <tr>
+                      <td class="lefttd">【木】</td>
+                      <td class="righttd">定休日</td>
+                  </tr>
+                  <tr>
+                      <td class="lefttd">【金】</td>
+                      <td class="righttd">11:00〜15:00/17:00〜21:00</td>
+                  </tr>
+                  <tr>
+                      <td class="lefttd">【土】</td>
+                      <td class="righttd">11:00〜15:00/17:00〜21:00</td>
+                  </tr>
+                  <tr>
+                      <td class="lefttd">【日】</td>
+                      <td class="righttd">11:00〜15:00/17:00〜21:00</td>
+                  </tr>
+                 
+                </table>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- hardware section -->
+    <section class="sale bg-light" id="obento">
+      <div class="container text-dark">
+        <div class="row">
+          <div class="col-sm-7 mx-auto text-center subheading">
+            <h2>お弁当</h2>
+            <p>お弁当サービスを始めました。電話にてご予約ください。<br>
+              <a href="https://www.instagram.com/homura_kesennuma/" target=”_blank”>当店インスタグラム</a>にて日替わり弁当を投稿しております。
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4 mt-3">
+            <div class="col-sm-4">
+              <div class="game-card card-effect text-center">
+                <img src="./imgs/bento-1.png" alt="" class="card-img-top"/>
+                <div class="my-4 explain-sentence">
+                  <h4>ご予約オードブル</h4>
+                  <p>ベーコンいっぱいのポテサラにチキン南蛮・牛の焼肉・1口チキンステーキ・白身魚のフライ・エビフライ・シーフードのクリームパスタ</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="game-card card-effect text-center">
+                <img src="./imgs/bento-2.png" alt="" />
+                <div class="my-4 explain-sentence">
+                  <h4>ご予約1,000円お弁当</h4>
+                  <p>有頭エビフライにアジフライ・厚焼き玉子ポテサラ・豚の角煮・揚げなす・ゆで卵・筑前煮にチーズケーキ</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="game-card card-effect text-center">
+                <img src="./imgs/bento-3.png" alt="" />
+                <div class="my-4 explain-sentence">
+                  <h4>ご予約1,000円お弁当</h4>
+                  <p>鶏モモの竜田揚げに合鴨入りマカロニサラダ・シメジと春雨の炒め物に厚焼き玉子</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+
+
+   
+  
+
+    <script src="./main.js"></script>
+  </body>
+</html>
